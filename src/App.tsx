@@ -1,7 +1,9 @@
 import React from 'react';
 import logo from './logo.svg';
+import Board from "./components/Board";
 import './App.css';
 
+/*
 function App() {
   return (
     <div className="App">
@@ -22,5 +24,14 @@ function App() {
     </div>
   );
 }
+*/
+
+const App: React.FC = () => {
+  return (
+    <div className="flex justify-center items-center h-screen bg-blue-100">
+      <Board />
+    </div>
+  );
+};
 
 export default App;
